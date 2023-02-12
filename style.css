@@ -1,0 +1,1128 @@
+body {
+    background-color: white;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+    background: #29291E;
+}
+
+h3 {
+    position: absolute;
+    width: 88px;
+    height: 27px;
+    left: 79px;
+    top: 41px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+}
+
+nav .icon-nav1 {
+    position: absolute;
+    fill: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    top: 52px;
+    right: 310px;
+    
+}
+
+nav .icon-nav1:hover {
+    fill: green;
+}
+
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    list-style-type: none;
+    line-height: 100px;
+    float: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 14px 20px;
+    color: white;
+    border-radius: 5px;
+    float: right;
+ }
+ nav ul li a:hover {
+    color : green;
+ }
+
+
+button{
+    padding: 10px 25px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 50px;
+    text-align: right;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+h1 {
+    position: absolute;
+    width: 900px;
+    height: 50px;
+    left: 200px;
+    top: 170px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    
+
+
+    color: #FFFFFF;
+}
+
+.search {
+    
+    position: absolute;
+    width: 550px;
+    height: 60px;
+    left: 80px;
+    top: 290px;
+
+    background: #FFFFFF;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+select {
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    left: 700px;
+    top: 290px;
+
+    background: #FFFFFF;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.button_search {
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    left: 1100px;
+    top: 290px;
+
+    color: white;
+    background: green;
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+
+
+
+.box h3.text_satu{
+    position: absolute;
+    width: 416px;
+    height: 50px;
+    left: 80px;
+    top: 460px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-decoration: overline 20px solid green;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    /* identical to box height, or 139% */
+
+
+    color: black;
+}
+
+p.text-satu {
+    position: absolute;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    right: 80px;
+    top: 460px;
+
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+
+    color: black;
+}
+
+p.text-satu :hover {
+    color: green;
+}
+
+.icon-seemore1 {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 80px;
+    top: 11px;
+
+    fill: green;
+}
+
+
+
+.card img.imgsatu {
+    position: absolute;
+    width: 302px;
+    height: 234px;
+    left: 80px;
+    top: 540px;
+
+    margin-top: 50px;
+
+    background: url(voiceposttech.jpg);
+    border-radius: 7.41177px;
+}
+.card_body {
+    position: absolute;
+    width: 302px;
+    height: 315px;
+    left: 80px;
+    top: 769px;
+
+    margin-top: 0;
+
+    background: #FFFFFF;
+    filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.25));
+    
+}
+
+h2.title {
+
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+
+    color: green;
+
+}
+
+h4 {
+
+    margin-top: 20px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 17px;
+
+
+    letter-spacing: 0.01em;
+
+    color: black;
+}
+
+p {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+
+    
+    letter-spacing: 0.01em;
+
+    color: black;
+}
+
+.card_body button {  
+    align-items: center;
+    text-align: center;
+    width: 200px;
+
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+
+.card2 img.imgdua {
+    position: absolute;
+    width: 302px;
+    height: 234px;
+    left: 406px;
+    top: 540px;
+
+
+    margin-top: 50px;
+    
+    background: url(magictraincard.jpg);
+    border-radius: 7.41px;
+}
+
+.card2_body {
+    position: absolute;
+    width: 302px;
+    height: 315px;
+    left: 406px;
+    top: 769px;
+    
+    background: white;
+
+    margin-top: 0;
+
+    filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.25));
+    
+}
+
+
+.card2_body button {  
+    align-items: center;
+    text-align: center;
+    width: 200px;
+
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+
+
+
+.card3 img.imgtiga {
+    position: absolute;
+    width: 302px;
+    height: 234px;
+    left: 732px;
+    top: 540px;
+
+    margin-top: 50px;
+    
+    background: url(smiletodonate.jpg);
+    border-radius: 7.41px;
+}
+
+.card3_body {
+    position: absolute;
+    width: 302px;
+    height: 315px;
+    left: 732px;
+    top: 769px;
+
+    background: white;
+
+    margin-top: 0;
+
+    filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.25));
+    
+}
+
+
+.card3_body button {  
+    align-items: center;
+    text-align: center;
+    width: 200px;
+
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+
+.card4 img.imgempat {
+    position: absolute;
+    width: 302px;
+    height: 234px;
+    left: 1058px;
+    top: 540px;
+
+    margin-top: 50px;
+    
+    background: url(smiletodonate.jpg);
+    border-radius: 7.41px;
+}
+
+.card4_body {
+    position: absolute;
+    width: 302px;
+    height: 315px;
+    left: 1058px;
+    top: 769px;
+
+    background: white;
+
+    margin-top: 0;
+
+    filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.25));
+    
+}
+
+
+.card4_body button {  
+    align-items: center;
+    text-align: center;
+    width: 200px;
+
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.iconR1 {
+    position: absolute;
+    cursor: pointer;
+    fill: green;
+    width: 50px;
+    height: 50px;
+    top: 1200px;
+    left: 150px;
+}
+
+.iconL2 {
+    position: absolute;
+    cursor: pointer;
+    fill: green;
+    width: 50px;
+    height: 50px;
+    top: 1200px;
+    left: 80px;
+}
+
+
+.box h3.text_dua {
+    position: absolute;
+    width: 416px;
+    height: 50px;
+    left: 80px;
+    top: 1357px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-decoration: overline 20px solid green;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    /* identical to box height, or 139% */
+
+
+    color: black;
+}
+
+
+p.text-dua {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    right: 80px;
+    top: 1357px;
+
+    font-family: 'montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+
+    color: black;
+}
+
+p.text-satu :hover {
+    color: green;
+}
+
+.icon-seemore2 {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 80px;
+    top: 11px;
+
+    fill: green;
+}
+
+
+
+
+
+
+.card5 img.imglima {
+    position: absolute;
+    width: 302px;
+    height: 234px;
+    left: 80px;
+    top: 1437px;
+
+    margin-top: 50px;
+
+    
+    border-radius: 7.41177px;
+}
+.card5_body {
+    position: absolute;
+    width: 302px;
+    height: 315px;
+    left: 80px;
+    top: 1666px;
+
+    margin-top: 0;
+
+    background: #FFFFFF;
+    filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.25));
+    
+}
+
+
+.card5_body button {  
+    align-items: center;
+    text-align: center;
+    width: 200px;
+
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+
+.card6 img.imgenam {
+    position: absolute;
+    width: 302px;
+    height: 234px;
+    left: 406px;
+    top: 1437px;
+
+
+    margin-top: 50px;
+    
+    background: url(magictraincard.jpg);
+    border-radius: 7.41px;
+}
+
+.card6_body {
+    position: absolute;
+    width: 302px;
+    height: 315px;
+    left: 406px;
+    top: 1666px;
+    
+    background: white;
+
+    margin-top: 0;
+
+    filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.25));
+    
+}
+
+
+.card6_body button {  
+    align-items: center;
+    text-align: center;
+    width: 200px;
+
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+
+
+
+.card7 img.imgtuju {
+    position: absolute;
+    width: 303px;
+    height: 234px;
+    left: 732px;
+    top: 1437px;
+
+    margin-top: 50px;
+    
+    background: url(smiletodonate.jpg);
+    border-radius: 7.41px;
+}
+
+.card7_body {
+    position: absolute;
+    width: 302px;
+    height: 315px;
+    left: 732px;
+    top: 1666px;
+
+    background: white;
+
+    margin-top: 0;
+
+    filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.25));
+    
+}
+
+
+.card7_body button {  
+    align-items: center;
+    text-align: center;
+    width: 200px;
+
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+
+.card8 img.imgdelapan {
+    position: absolute;
+    width: 302px;
+    height: 234px;
+    left: 1058px;
+    top: 1437px;
+
+    margin-top: 50px;
+    
+    background: url(smiletodonate.jpg);
+    border-radius: 7.41px;
+}
+
+.card8_body {
+    position: absolute;
+    width: 302px;
+    height: 315px;
+    left: 1058px;
+    top: 1666px;
+
+    background: white;
+
+    margin-top: 0;
+
+    filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.25));
+    
+}
+
+
+.card8_body button {  
+    align-items: center;
+    text-align: center;
+    width: 200px;
+
+    margin-top: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.iconR3 {
+    position: absolute;
+    fill: green;
+    width: 50px;
+    height: 50px;
+    top: 2100px;
+    left: 150px;
+}
+
+.iconL4 {
+    position: absolute;
+    fill: green;
+    width: 50px;
+    height: 50px;
+    top: 2100px;
+    left: 80px;
+}
+
+
+.container {
+    
+    position: absolute;
+    width: 100%;
+    height: 1100px;
+    left: 0px;
+    top: 2244px;
+
+    background: #29291E
+}
+
+.container-left h3.text-head {
+
+    
+    width: 416px;
+    height: 50px;
+    left: 80px;
+    top: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-decoration: overline 20px solid green;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+
+
+    color: white;
+
+}
+
+.container-left h3.text-cont-satu {
+    
+    width: 648px;
+    height: 70px;
+    left: 80px;
+    margin-top: 150px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    
+
+
+    color: white;
+
+}
+
+.container-left p.p-cont-satu {
+    
+    width: 432px;
+    height: 35px;
+    margin-left: 80px;
+    margin-top: 250px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    
+
+
+    color: white;
+}
+
+.container-left h4.text-cont-satu {
+    
+    width: 150px;
+    height: 5px;
+    margin-left: 80px;
+    margin-top: 15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    /* identical to box height, or 219% */
+
+
+    color: white;
+}
+
+.container-left p.date-cont-satu {
+    
+    width: 254px;
+    height: 35px;
+    margin-left: 80px;
+    margin-top: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    /* identical to box height, or 219% */
+
+
+    color: white;
+}
+
+.container-left button.button-cont-satu {
+    
+    text-align: center;
+    width: 270px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    
+
+
+    color: #FFFFFF;
+}
+
+.container-right img.cont-foto1 {
+    position: absolute;
+    width: 628px;
+    height: 356px;
+    left: 732px;
+    top: 130px;
+
+    border: 5px solid white;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+.container-left h3.text-cont-dua {
+    
+    width: 648px;
+    height: 70px;
+    left: 80px;
+    margin-top: 650px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    
+
+
+    color: white;
+
+}
+
+.container-left p.p-cont-dua {
+    
+    width: 432px;
+    height: 35px;
+    margin-left: 80px;
+    margin-top: 300px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    
+
+
+    color: white;
+}
+
+.container-left h4.text-cont-dua {
+    
+    width: 150px;
+    height: 5px;
+    margin-left: 80px;
+    margin-top: 15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    /* identical to box height, or 219% */
+
+
+    color: white;
+}
+
+.container-left p.date-cont-dua {
+    
+    width: 254px;
+    height: 35px;
+    margin-left: 80px;
+    margin-top: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    /* identical to box height, or 219% */
+
+
+    color: white;
+}
+
+.container-left button.button-cont-dua {
+    
+    text-align: center;
+    width: 270px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    
+
+
+    color: #FFFFFF;
+}
+
+.container-right img.cont-foto2 {
+    position: absolute;
+    width: 630px;
+    height: 355px;
+    left: 730px;
+    top: 650px;
+
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.card-join-body {
+    position: absolute;
+    width: 1282px;
+    height: 280px;
+    left: 80px;
+    top: 1224px;
+
+    background: #EF6C66;
+    border-radius: 30px;
+}
+
+.card-join h2.join {
+    
+    width: 482px;
+    height: 88px;
+    margin-left: 100px;
+    top: 3485px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: white;
+
+}
+
+.card-join p.join {
+    
+    width: 465px;
+    height: 20px;
+    margin-left: 100px;
+    margin-top: 15px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+
+    color: white;
+}
+
+.card-join button.join {
+    box-sizing: border-box;
+
+    text-align: center;
+    
+    width: 270px;
+    height: 60px;
+    margin-left: 60%;
+    
+
+
+
+    color: #EF6C66;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+}
+
+
+.colom {
+    position: relative;
+    top: 4000px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    border-top: 10px solid black;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+   
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3.footercr {
+    width: 85px;
+    height: 30px;
+    margin-left: 80px;
+    top: 30px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    
+
+
+    color: black;
+}
+
+p.footercr {
+    width: 416px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 100px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+
+
+    color: black;
+}
+
+h4.footercr {
+    width: 161px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 100px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    
+
+
+    color: black;
+}
+
+.ul {
+    list-style: none;
+}
+
+
+
+.footer-col {
+    width: 200px;
+    padding: 0 35px;
+}
+
+.footer-col h3 {
+    font-size: 16px;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-bottom: 50px;
+    font-weight: 600;
+    position: relative;
+}
+
+
+.footer-col ul li{
+    position: relative;
+    font-size: 16px;
+    margin-top: 10px;
+    
+    list-style-type: none;
+    font-weight: 500;
+    
+    
+}
+
+.footer-col ul li a{
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    
+    list-style-type: none;
+    font-weight: 500;
+    color: black
+    
+}
+
+
+
