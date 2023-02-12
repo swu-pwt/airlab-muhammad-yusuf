@@ -1,230 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="responsive.css"
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- header -->
     <header>
-
-        <!-- navigasi -->
-        <h3>AirLabs</h3>
-        <nav>
-            <ul class="nav_link">
-                <li><a href="#"><button>Login</button></a></li>
-                <li><a href="#">Register</a></li>
-                <li><a href="#"><svg class="icon-nav1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9,10V16H15V10H19L12,3L5,10H9M12,5.8L14.2,8H13V14H11V8H9.8L12,5.8M19,18H5V20H19V18Z" /></svg>Upload</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Experiments</a></li>
-                <li><a href="#">Home</a></li>
-            </ul>  
-        </nav>
-
-
-        <center><h1>Search Awesome Experiments and AI Resources</h1></center>
-        
-        <!-- form search -->
-
-
-        <form>
-            <input class="search" type="text" placeholder="Search any experiments here"required>
-            <select name="Category">
-                <option value="harga">Harga</option>
-                <option value="warna">Warna</option>
-                <option value="merk">Merk</option>
-            </select>
-            <a href="#"><input class="button_search" type="button" value="Search"></a>
-        </form>
+      <!-- navigasi -->
+      <h3>AirLabs</h3>
+      <nav>
+        <ul class="nav_link">
+          <li>
+            <a href="#">
+              <button>Login</button>
+            </a>
+          </li>
+          <li>
+            <a href="#">Register</a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="icon-nav1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M9,10V16H15V10H19L12,3L5,10H9M12,5.8L14.2,8H13V14H11V8H9.8L12,5.8M19,18H5V20H19V18Z" />
+              </svg>Upload </a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Resources</a>
+          </li>
+          <li>
+            <a href="#">Experiments</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+        </ul>
+      </nav>
+      <center>
+        <h1>Search Awesome Experiments and AI Resources</h1>
+      </center>
+      <!-- form search -->
+      <form>
+        <input class="search" type="text" placeholder="Search any experiments here" required>
+        <select name="Category">
+          <option value="harga">Harga</option>
+          <option value="warna">Warna</option>
+          <option value="merk">Merk</option>
+        </select>
+        <a href="#">
+          <input class="button_search" type="button" value="Search">
+        </a>
+      </form>
     </header>
-
-        <!-- halaman card 1 -->
-
-        <div class="box">
-            <h3 class="text_satu">Popular Experiments</h3>
-                <a href="#"><p class="text-satu"><svg class="icon-seemore1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.17,12L15,8.83L16.41,7.41L21,12L16.41,16.58L15,15.17L18.17,12M5.83,12L9,15.17L7.59,16.59L3,12L7.59,7.42L9,8.83L5.83,12Z" /></svg>See More</p></a>
-                    <div class="card">
-                        <img src="assets/img/voiceposttech1.png" alt="img" class="imgsatu">
-                        <div class="card_body">
-                            <center><h2 class="title">Voicepost</h2></center>
-                            <h4 align="center">Cordova Putra H</h4>
-                            <p align="center">I am developing a production ready mobile app which involves NLP to send messages with your voice with quick...............</p>
-                            <center><a href="#"><button>view demo</button></a></center>
-                        </div>
-                    </div>
-
-                    <div class="card2">
-                        <img src="assets/img/magictraincard1.png" alt="img" class="imgdua">
-                        <div class="card2_body">
-                            <center><h2 class="title">Magic Train Card</h2></center>
-                            <h4 align="center">Cordova Putra H</h4>
-                            <p align="center">I learned how to build complex SceneKit and SCNNode interaction, then using custom plane which is my train commute ticket to have</p>
-                            <center><a href="#"><button>view demo</button></a></center>
-                        </div>
-                    </div>
-
-                    <div class="card3">
-                        <img src="assets/img/smiletodonate1.png" alt="img" class="imgtiga">
-                        <div class="card3_body">
-                            <center><h2 class="title">Smile To Donate</h2></center>
-                            <h4 align="center">Cordova Putra H</h4>
-                            <p align="center">I decided to play around with TrueDepth technology combined with Speech with a simple and fun case, which is smile to donate</p>
-                            <center><a href="#"><button>view demo</button></a></center>
-                        </div>
-                    </div>
-
-                    <div class="card4">
-                        <img src="assets/img/humansims1.png" alt="img" class="imgempat">
-                        <div class="card4_body">
-                            <center><h2 class="title">The Sims in Real Life</h2></center>
-                            <h4 align="center">Cordova Putra H</h4>
-                            <p align="center">I combined ARKit and CoreML for object detection to add green plumbob on detected humans wgekty;udrsmuepy.......</p>
-                            <center><a href="#"><button>view demo</button></a></center>
-                        </div>
-                    </div>
-
-                    <div class="icon-RL">
-                        <a href="#"><svg class="iconR1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z" /></svg></a>
-                        <a href="#"><svg class="iconL2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M18,11H10L13.5,7.5L12.08,6.08L6.16,12L12.08,17.92L13.5,16.5L10,13H18V11Z" /></svg></a>
-                    </div>
-
-            <h3 class="text_dua">Popular Resources</h3>
-
-            <!-- halaman card 2 -->
-
-            <a href="#"><p class="text-dua"><svg class="icon-seemore2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.17,12L15,8.83L16.41,7.41L21,12L16.41,16.58L15,15.17L18.17,12M5.83,12L9,15.17L7.59,16.59L3,12L7.59,7.42L9,8.83L5.83,12Z" /></svg>See More</p></a>
-                    <div class="card5">
-                        <img src="assets/img/olgskPa2gkk.png" alt="img" class="imglima">
-                        <div class="card5_body">
-                            <center><h2 class="title">Voicepost</h2></center>
-                            <h4 align="center">Cordova Putra H</h4>
-                            <p align="center">I am developing a production ready mobile app which involves NLP to send messages with your voice with quick...............</p>
-                            <center><a href="#"><button>view demo</button></a></center>
-                        </div>
-                    </div>
-
-                    <div class="card6">
-                        <img src="assets/img/3ItLsIWweFQ.png" alt="img" class="imgenam">
-                        <div class="card6_body">
-                            <center><h2 class="title">Magic Train Card</h2></center>
-                            <h4 align="center">Cordova Putra H</h4>
-                            <p align="center">I learned how to build complex SceneKit and SCNNode interaction, then using custom plane which is my train commute ticket to have</p>
-                            <center><a href="#"><button>view demo</button></a></center>
-                        </div>
-                    </div>
-
-                    <div class="card7">
-                        <img src="assets/img/FbhNdD1ow2g.png" alt="img" class="imgtuju">
-                        <div class="card7_body">
-                            <center><h2 class="title">Smile To Donate</h2></center>
-                            <h4 align="center">Cordova Putra H</h4>
-                            <p align="center">I decided to play around with TrueDepth technology combined with Speech with a simple and fun case, which is smile to donate</p>
-                            <center><a href="#"><button>view demo</button></a></center>
-                        </div>
-                    </div>
-
-                    <div class="card8">
-                        <img src="assets/img/voiceposttech 1.png" alt="img" class="imgdelapan">
-                        <div class="card8_body">
-                            <center><h2 class="title">The Sims in Real Life</h2></center>
-                            <h4 align="center">Cordova Putra H</h4>
-                            <p align="center">I combined ARKit and CoreML for object detection to add green plumbob on detected humans wgekty;udrsmuepy.......</p>
-                            <center><a href="#"><button>view demo</button></a></center>
-                        </div>
-                    </div>
-
-                    <div class="icon-RL">
-                        <a href="#"><svg class="iconR3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z" /></svg></a>
-                        <a href="#"><svg class="iconL4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M18,11H10L13.5,7.5L12.08,6.08L6.16,12L12.08,17.92L13.5,16.5L10,13H18V11Z" /></svg></a>
-                    </div>
-
-                    <!-- halaman stories -->
-
-                <div class="container">
-                    <div class="container-left">
-                        <h3 class="text-head">Highlight Stories</h3>
-                        <h3 class="text-cont-satu">UX Engineering and Artificial Intelligence: Visual Speech AI</h3>
-                        <p class="p-cont-satu">The Story of UX Engineering Approach to AI (Part I)</p>
-                        <h4 class="text-cont-satu">Cordova Putra H</h4>
-                        <p class="date-cont-satu">Monday , 14 November 2019</p>
-                        <a href="#"><button class="button-cont-satu">Read More</button></a>
-                    </div>
-
-                    <div class="container-right">
-                        <img class="cont-foto1" src="assets/img/1 NLnnf_M4Nlm4p1GAWrWUCQ1.png" alt="gambar">
-                    </div>
-
-                    <div class="container-left">
-                        <h3 class="text-cont-dua">How to Translate ‘Failures’ into ‘Exploration’ and ‘Innovation’</h3>
-                        <p class="p-cont-dua">I see no failures. I only see exploration and innovation.</p>
-                        <h4 class="text-cont-dua">Cordova Putra H</h4>
-                        <p class="date-cont-dua">Saturday , 19 November 2019</p>
-                        <a href="#"><button class="button-cont-dua">Read More</button></a>
-                    </div>
-
-                    <div class="container-right">
-                        <img class="cont-foto2" src="assets/img/image1.png" alt="gambar">
-                    </div>
-
-                    <!-- card join -->
-
-                    <div class="card-join">
-                        <div class="card-join-body">
-                            <h2 class="join">Want to be an Innovator ? Let’s join with us</h2>
-                            <p class="join">Be an good innovator and give and big impact to society</p>
-                            <a href="#"><button class="join">Join Now</button></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- footer -->
-
-                <footer class="footer">
-                    <div class="colom">
-                        <div class="row">
-                            <div class="footercr">
-                                <h3 class="footercr">AirLabs</h3>
-                                <p class="footercr">Platfrom untuk berbagi experiment dan mencari data model AI</p>
-                                <h4 class="footercr">© 2019 Cordova, Inc.</h4>
-                            </div>
-                            <div class="footer-col">
-                                <h3>Follow Us</h3>
-                                <ul>
-                                    <li><a href="#">Mendium</a></li>
-                                    <li><a href="#">Facebook</li>
-                                    <li><a href="#">Instagram</li>
-                                </ul>
-                            </div>
-                            <div class="footer-col">
-                                <h3>Navigation</h3>
-                                <ul>
-                                    <li><a href="#">Resources</a></li>
-                                    <li><a href="#">Experiments</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                </ul>
-                            </div>
-                            <div class="footer-col">
-                                <h3>About Us</h3>
-                                <ul>
-                                    <li><a href="#">hello@airlabs.id</a></li>
-                                    <li><a href="#">Jl. Jendral Sudirman Purwokerto Selatan</a></li>
-                                   <li><a href="#">Kode Pos 53174</a></li>
-                                </ul>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </footer>
+    <!-- halaman card 1 -->
+    <div class="box">
+      <h3 class="text_satu">Popular Experiments</h3>
+      <a href="#">
+        <p class="text-satu">
+          <svg class="icon-seemore1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M18.17,12L15,8.83L16.41,7.41L21,12L16.41,16.58L15,15.17L18.17,12M5.83,12L9,15.17L7.59,16.59L3,12L7.59,7.42L9,8.83L5.83,12Z" />
+          </svg>See More
+        </p>
+      </a>
+      <div class="card">
+        <img src="assets/img/voiceposttech1.png" alt="img" class="imgsatu">
+        <div class="card_body">
+          <center>
+            <h2 class="title">Voicepost</h2>
+          </center>
+          <h4 align="center">Cordova Putra H</h4>
+          <p align="center">I am developing a production ready mobile app which involves NLP to send messages with your voice with quick...............</p>
+          <center>
+            <a href="#">
+              <button>view demo</button>
+            </a>
+          </center>
         </div>
-
-</body>
+      </div>
+      <div class="card2">
+        <img src="assets/img/magictraincard1.png" alt="img" class="imgdua">
+        <div class="card2_body">
+          <center>
+            <h2 class="title">Magic Train Card</h2>
+          </center>
+          <h4 align="center">Cordova Putra H</h4>
+          <p align="center">I learned how to build complex SceneKit and SCNNode interaction, then using custom plane which is my train commute ticket to have</p>
+          <center>
+            <a href="#">
+              <button>view demo</button>
+            </a>
+          </center>
+        </div>
+      </div>
+      <div class="card3">
+        <img src="assets/img/smiletodonate1.png" alt="img" class="imgtiga">
+        <div class="card3_body">
+          <center>
+            <h2 class="title">Smile To Donate</h2>
+          </center>
+          <h4 align="center">Cordova Putra H</h4>
+          <p align="center">I decided to play around with TrueDepth technology combined with Speech with a simple and fun case, which is smile to donate</p>
+          <center>
+            <a href="#">
+              <button>view demo</button>
+            </a>
+          </center>
+        </div>
+      </div>
+      <div class="card4">
+        <img src="assets/img/humansims1.png" alt="img" class="imgempat">
+        <div class="card4_body">
+          <center>
+            <h2 class="title">The Sims in Real Life</h2>
+          </center>
+          <h4 align="center">Cordova Putra H</h4>
+          <p align="center">I combined ARKit and CoreML for object detection to add green plumbob on detected humans wgekty;udrsmuepy.......</p>
+          <center>
+            <a href="#">
+              <button>view demo</button>
+            </a>
+          </center>
+        </div>
+      </div>
+      <div class="icon-RL">
+        <a href="#">
+          <svg class="iconR1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z" />
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="iconL2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M18,11H10L13.5,7.5L12.08,6.08L6.16,12L12.08,17.92L13.5,16.5L10,13H18V11Z" />
+          </svg>
+        </a>
+      </div>
+      <h3 class="text_dua">Popular Resources</h3>
+      <!-- halaman card 2 -->
+      <a href="#">
+        <p class="text-dua">
+          <svg class="icon-seemore2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M18.17,12L15,8.83L16.41,7.41L21,12L16.41,16.58L15,15.17L18.17,12M5.83,12L9,15.17L7.59,16.59L3,12L7.59,7.42L9,8.83L5.83,12Z" />
+          </svg>See More
+        </p>
+      </a>
+      <div class="card5">
+        <img src="assets/img/olgskPa2gkk.png" alt="img" class="imglima">
+        <div class="card5_body">
+          <center>
+            <h2 class="title">Voicepost</h2>
+          </center>
+          <h4 align="center">Cordova Putra H</h4>
+          <p align="center">I am developing a production ready mobile app which involves NLP to send messages with your voice with quick...............</p>
+          <center>
+            <a href="#">
+              <button>view demo</button>
+            </a>
+          </center>
+        </div>
+      </div>
+      <div class="card6">
+        <img src="assets/img/3ItLsIWweFQ.png" alt="img" class="imgenam">
+        <div class="card6_body">
+          <center>
+            <h2 class="title">Magic Train Card</h2>
+          </center>
+          <h4 align="center">Cordova Putra H</h4>
+          <p align="center">I learned how to build complex SceneKit and SCNNode interaction, then using custom plane which is my train commute ticket to have</p>
+          <center>
+            <a href="#">
+              <button>view demo</button>
+            </a>
+          </center>
+        </div>
+      </div>
+      <div class="card7">
+        <img src="assets/img/FbhNdD1ow2g.png" alt="img" class="imgtuju">
+        <div class="card7_body">
+          <center>
+            <h2 class="title">Smile To Donate</h2>
+          </center>
+          <h4 align="center">Cordova Putra H</h4>
+          <p align="center">I decided to play around with TrueDepth technology combined with Speech with a simple and fun case, which is smile to donate</p>
+          <center>
+            <a href="#">
+              <button>view demo</button>
+            </a>
+          </center>
+        </div>
+      </div>
+      <div class="card8">
+        <img src="assets/img/voiceposttech 1.png" alt="img" class="imgdelapan">
+        <div class="card8_body">
+          <center>
+            <h2 class="title">The Sims in Real Life</h2>
+          </center>
+          <h4 align="center">Cordova Putra H</h4>
+          <p align="center">I combined ARKit and CoreML for object detection to add green plumbob on detected humans wgekty;udrsmuepy.......</p>
+          <center>
+            <a href="#">
+              <button>view demo</button>
+            </a>
+          </center>
+        </div>
+      </div>
+      <div class="icon-RL">
+        <a href="#">
+          <svg class="iconR3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M6,13H14L10.5,16.5L11.92,17.92L17.84,12L11.92,6.08L10.5,7.5L14,11H6V13Z" />
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="iconL4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M18,11H10L13.5,7.5L12.08,6.08L6.16,12L12.08,17.92L13.5,16.5L10,13H18V11Z" />
+          </svg>
+        </a>
+      </div>
+      <!-- halaman stories -->
+      <div class="container">
+        <div class="container-left">
+          <h3 class="text-head">Highlight Stories</h3>
+          <h3 class="text-cont-satu">UX Engineering and Artificial Intelligence: Visual Speech AI</h3>
+          <p class="p-cont-satu">The Story of UX Engineering Approach to AI (Part I)</p>
+          <h4 class="text-cont-satu">Cordova Putra H</h4>
+          <p class="date-cont-satu">Monday , 14 November 2019</p>
+          <a href="#">
+            <button class="button-cont-satu">Read More</button>
+          </a>
+        </div>
+        <div class="container-right">
+          <img class="cont-foto1" src="assets/img/1 NLnnf_M4Nlm4p1GAWrWUCQ1.png" alt="gambar">
+        </div>
+        <div class="container-left">
+          <h3 class="text-cont-dua">How to Translate ‘Failures’ into ‘Exploration’ and ‘Innovation’</h3>
+          <p class="p-cont-dua">I see no failures. I only see exploration and innovation.</p>
+          <h4 class="text-cont-dua">Cordova Putra H</h4>
+          <p class="date-cont-dua">Saturday , 19 November 2019</p>
+          <a href="#">
+            <button class="button-cont-dua">Read More</button>
+          </a>
+        </div>
+        <div class="container-right">
+          <img class="cont-foto2" src="assets/img/image1.png" alt="gambar">
+        </div>
+        <!-- card join -->
+        <div class="card-join">
+          <div class="card-join-body">
+            <h2 class="join">Want to be an Innovator ? Let’s join with us</h2>
+            <p class="join">Be an good innovator and give and big impact to society</p>
+            <a href="#">
+              <button class="join">Join Now</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="colom">
+          <div class="row">
+            <div class="footercr">
+              <h3 class="footercr">AirLabs</h3>
+              <p class="footercr">Platfrom untuk berbagi experiment dan mencari data model AI</p>
+              <h4 class="footercr">© 2019 Cordova, Inc.</h4>
+            </div>
+            <div class="footer-col">
+              <h3>Follow Us</h3>
+              <ul>
+                <li>
+                  <a href="#">Mendium</a>
+                </li>
+                <li>
+                  <a href="#">Facebook
+                </li>
+                <li>
+                  <a href="#">Instagram
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h3>Navigation</h3>
+              <ul>
+                <li>
+                  <a href="#">Resources</a>
+                </li>
+                <li>
+                  <a href="#">Experiments</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h3>About Us</h3>
+              <ul>
+                <li>
+                  <a href="#">hello@airlabs.id</a>
+                </li>
+                <li>
+                  <a href="#">Jl. Jendral Sudirman Purwokerto Selatan</a>
+                </li>
+                <li>
+                  <a href="#">Kode Pos 53174</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
