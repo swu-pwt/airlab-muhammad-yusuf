@@ -144,7 +144,14 @@ select {
 }
 
 
-
+.line {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    left: 80px;
+    top: 475px;
+    background: green;
+}
 .box h3.text_satu{
     position: absolute;
     width: 416px;
@@ -154,7 +161,6 @@ select {
 
     font-family: 'Montserrat';
     font-style: normal;
-    text-decoration: overline 20px solid green;
     font-weight: 700;
     font-size: 36px;
     line-height: 50px;
@@ -444,6 +450,15 @@ p {
     left: 80px;
 }
 
+.line2 {
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    left: 80px;
+    top: 1360px;
+    background: green;
+}
+
 
 .box h3.text_dua {
     position: absolute;
@@ -454,7 +469,6 @@ p {
 
     font-family: 'Montserrat';
     font-style: normal;
-    text-decoration: overline 20px solid green;
     font-weight: 700;
     font-size: 36px;
     line-height: 50px;
